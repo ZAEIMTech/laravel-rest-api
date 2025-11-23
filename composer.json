@@ -8,8 +8,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "ZAEIMTech\\RestAPI\\": "src",
-            "ZAEIMTech\\RestAPI\\Tests\\": "tests"
+            "Zaeimtech\\RestAPI\\": "src",
+            "Zaeimtech\\RestAPI\\Tests\\": "tests"
         }
     },
     "authors": [
