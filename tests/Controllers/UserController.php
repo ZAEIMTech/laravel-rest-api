@@ -1,9 +1,9 @@
 <?php
 
-namespace Froiden\RestAPI\Tests\Controllers;
+namespace ZAEIMTech\RestAPI\Tests\Controllers;
 
-use Froiden\RestAPI\ApiController;
-use Froiden\RestAPI\Tests\Models\DummyUser;
+use ZAEIMTech\RestAPI\ApiController;
+use ZAEIMTech\RestAPI\Tests\Models\DummyUser;
 
 class UserController extends ApiController
 {

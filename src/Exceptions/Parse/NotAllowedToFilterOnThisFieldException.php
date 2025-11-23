@@ -1,8 +1,8 @@
 <?php
-namespace Froiden\RestAPI\Exceptions\Parse;
+namespace ZAEIMTech\RestAPI\Exceptions\Parse;
 
-use Froiden\RestAPI\Exceptions\ApiException;
-use Froiden\RestAPI\Exceptions\ErrorCodes;
+use ZAEIMTech\RestAPI\Exceptions\ApiException;
+use ZAEIMTech\RestAPI\Exceptions\ErrorCodes;
 
 class NotAllowedToFilterOnThisFieldException extends ApiException
 {

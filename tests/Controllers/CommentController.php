@@ -1,9 +1,9 @@
 <?php
 
-namespace Froiden\RestAPI\Tests\Controllers;
+namespace ZAEIMTech\RestAPI\Tests\Controllers;
 
-use Froiden\RestAPI\ApiController;
-use Froiden\RestAPI\Tests\Models\DummyComment;
+use ZAEIMTech\RestAPI\ApiController;
+use ZAEIMTech\RestAPI\Tests\Models\DummyComment;
 
 class CommentController extends ApiController
 {

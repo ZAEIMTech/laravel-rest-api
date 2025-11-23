@@ -1,12 +1,12 @@
 <?php
 
-namespace Froiden\RestAPI;
+namespace ZAEIMTech\RestAPI;
 
-use Froiden\RestAPI\Exceptions\Parse\InvalidLimitException;
-use Froiden\RestAPI\Exceptions\Parse\InvalidFilterDefinitionException;
-use Froiden\RestAPI\Exceptions\Parse\InvalidOrderingDefinitionException;
-use Froiden\RestAPI\Exceptions\Parse\MaxLimitException;
-use Froiden\RestAPI\Exceptions\Parse\NotAllowedToFilterOnThisFieldException;
+use ZAEIMTech\RestAPI\Exceptions\Parse\InvalidLimitException;
+use ZAEIMTech\RestAPI\Exceptions\Parse\InvalidFilterDefinitionException;
+use ZAEIMTech\RestAPI\Exceptions\Parse\InvalidOrderingDefinitionException;
+use ZAEIMTech\RestAPI\Exceptions\Parse\MaxLimitException;
+use ZAEIMTech\RestAPI\Exceptions\Parse\NotAllowedToFilterOnThisFieldException;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;

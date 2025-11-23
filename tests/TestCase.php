@@ -1,22 +1,22 @@
 <?php
 
-namespace Froiden\RestAPI\Tests;
+namespace ZAEIMTech\RestAPI\Tests;
 
-use Froiden\RestAPI\Facades\ApiRoute;
-use Froiden\RestAPI\Routing\ApiRouter;
-use Froiden\RestAPI\Tests\Controllers\CommentController;
-use Froiden\RestAPI\Tests\Controllers\PostController;
-use Froiden\RestAPI\Tests\Controllers\UserController;
-use Froiden\RestAPI\Tests\Models\DummyComment;
-use Froiden\RestAPI\Tests\Models\DummyPhone;
-use Froiden\RestAPI\Tests\Models\DummyPost;
-use Froiden\RestAPI\Tests\Models\DummyUser;
+use ZAEIMTech\RestAPI\Facades\ApiRoute;
+use ZAEIMTech\RestAPI\Routing\ApiRouter;
+use ZAEIMTech\RestAPI\Tests\Controllers\CommentController;
+use ZAEIMTech\RestAPI\Tests\Controllers\PostController;
+use ZAEIMTech\RestAPI\Tests\Controllers\UserController;
+use ZAEIMTech\RestAPI\Tests\Models\DummyComment;
+use ZAEIMTech\RestAPI\Tests\Models\DummyPhone;
+use ZAEIMTech\RestAPI\Tests\Models\DummyPost;
+use ZAEIMTech\RestAPI\Tests\Models\DummyUser;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 
 /**
  * Class TestCase
- * @package Froiden\RestAPI\Tests
+ * @package ZAEIMTech\RestAPI\Tests
  */
 class  TestCase extends \Illuminate\Foundation\Testing\TestCase
 {

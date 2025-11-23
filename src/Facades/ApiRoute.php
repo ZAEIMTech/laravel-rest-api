@@ -1,8 +1,8 @@
 <?php
 
-namespace Froiden\RestAPI\Facades;
+namespace ZAEIMTech\RestAPI\Facades;
 
-use Froiden\RestAPI\Routing\ApiRouter;
+use ZAEIMTech\RestAPI\Routing\ApiRouter;
 use Illuminate\Support\Facades\Facade;
 
 class ApiRoute extends Facade

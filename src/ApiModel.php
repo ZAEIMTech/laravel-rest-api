@@ -1,10 +1,10 @@
-<?php namespace Froiden\RestAPI;
+<?php namespace ZAEIMTech\RestAPI;
 
 use Carbon\Carbon;
 use Closure;
 use DateTimeInterface;
-use Froiden\RestAPI\Exceptions\RelatedResourceNotFoundException;
-use Froiden\RestAPI\Exceptions\ResourceNotFoundException;
+use ZAEIMTech\RestAPI\Exceptions\RelatedResourceNotFoundException;
+use ZAEIMTech\RestAPI\Exceptions\ResourceNotFoundException;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;

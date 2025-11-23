@@ -1,8 +1,8 @@
 <?php
 
-namespace Froiden\RestAPI;
+namespace ZAEIMTech\RestAPI;
 
-use Froiden\RestAPI\Exceptions\ApiException;
+use ZAEIMTech\RestAPI\Exceptions\ApiException;
 
 class ApiResponse
 {

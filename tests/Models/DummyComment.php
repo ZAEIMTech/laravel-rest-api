@@ -1,8 +1,8 @@
 <?php
 
-namespace Froiden\RestAPI\Tests\Models;
+namespace ZAEIMTech\RestAPI\Tests\Models;
 
-use Froiden\RestAPI\ApiModel;
+use ZAEIMTech\RestAPI\ApiModel;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
@@ -35,6 +35,6 @@ class DummyComment extends ApiModel
      */
     public function post()
     {
-        return $this->belongsTo('Froiden\RestAPI\Tests\Models\DummyPost');
+        return $this->belongsTo('ZAEIMTech\RestAPI\Tests\Models\DummyPost');
     }
 }

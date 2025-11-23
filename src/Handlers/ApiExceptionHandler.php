@@ -1,15 +1,15 @@
 <?php
 
-namespace Froiden\RestAPI\Handlers;
+namespace ZAEIMTech\RestAPI\Handlers;
 
 use App\Exceptions\Handler;
-use Froiden\RestAPI\ApiResponse;
-use Froiden\RestAPI\Exceptions\ApiException;
-use Froiden\RestAPI\Exceptions\Parse\UnknownFieldException;
-use Froiden\RestAPI\Exceptions\UnauthenticatedException;
-use Froiden\RestAPI\Exceptions\UnauthenticationException;
-use Froiden\RestAPI\Exceptions\UnauthorizedException;
-use Froiden\RestAPI\Exceptions\ValidationException;
+use ZAEIMTech\RestAPI\ApiResponse;
+use ZAEIMTech\RestAPI\Exceptions\ApiException;
+use ZAEIMTech\RestAPI\Exceptions\Parse\UnknownFieldException;
+use ZAEIMTech\RestAPI\Exceptions\UnauthenticatedException;
+use ZAEIMTech\RestAPI\Exceptions\UnauthenticationException;
+use ZAEIMTech\RestAPI\Exceptions\UnauthorizedException;
+use ZAEIMTech\RestAPI\Exceptions\ValidationException;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Database\QueryException;
